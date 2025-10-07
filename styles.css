@@ -34,6 +34,7 @@
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
     display: flex;
@@ -102,6 +103,7 @@
     color: #ffb199;
 }
 
+/* Mobile Menu */
 @media screen and (max-width: 960px) {
     .navbar_container {
         display: flex;
